@@ -1,0 +1,94 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="Ytl.AbittiUsb.MainWindow"
+    xmlns:lex="http://wpflocalizeextension.codeplex.com"
+    lex:LocalizeDictionary.DesignCulture="sv-SE"
+    lex:ResxLocalizationProvider.DefaultDictionary="Strings"
+    Title="{lex:Loc WindowTitle}" MinHeight="560" MinWidth="640" Height="600" Width="800" ResizeMode="CanResizeWithGrip">
+  <Window.Resources>
+    <Style x:Key="ComponentBorder" TargetType="{x:Type Border}">
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="BorderBrush" Value="Black" />
+      <Setter Property="BorderThickness" Value="2" />
+      <Setter Property="Margin" Value="-6" />
+    </Style>
+    <Style x:Key="LanguageLinkStyle" TargetType="{x:Type Hyperlink}">
+      <Setter Property="TextDecorations" Value="None"/>
+      <Style.Triggers>
+        <Trigger Property="IsEnabled" Value="False">
+          <Setter Property="FontWeight" Value="Bold"/>
+        </Trigger>
+        <MultiTrigger>
+          <MultiTrigger.Conditions>
+            <Condition Property="IsMouseOver" Value="True"/>
+            <Condition Property="IsEnabled" Value="True"/>
+          </MultiTrigger.Conditions>
+          <MultiTrigger.Setters>
+            <Setter Property="Foreground" Value="DarkRed"/>
+          </MultiTrigger.Setters>
+        </MultiTrigger>
+      </Style.Triggers>
+    </Style>
+  </Window.Resources>
+  <Window.TaskbarItemInfo>
+    <TaskbarItemInfo />
+  </Window.TaskbarItemInfo>
+  <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Grid Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="auto"/>
+      </Grid.ColumnDefinitions>
+      <Grid Grid.Row="0" Grid.Column="0" x:Name="LanguageLinks" Margin="10, 10, 10, 0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="auto"/>
+          <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Name="fi_FI" Margin="10 0 0 0"><Hyperlink Style="{DynamicResource LanguageLinkStyle}" Click="Finnish_Button_Click">SUOMEKSI</Hyperlink></TextBlock>
+        <TextBlock Grid.Column="1" Name="sv_SE" Margin="15 0 0 0"><Hyperlink Style="{DynamicResource LanguageLinkStyle}" Click="Sweden_Button_Click">PÅ SVENSKA</Hyperlink></TextBlock>
+      </Grid>
+      <TextBlock Grid.Row="0" Grid.Column="2" Margin="15 10 15 0"><Hyperlink Name="Settings" Style="{DynamicResource LanguageLinkStyle}" Click="Settings_Click"><TextBlock Text="{lex:Loc SettingsTitle}"/></Hyperlink></TextBlock>
+    </Grid>
+
+    <Border Grid.Row="1" BorderThickness="3" Margin="10 10 10 0" Opacity="1" Style="{StaticResource ComponentBorder}"
+                BorderBrush="LightGray">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" x:Name="LeftCanvas" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0"
+                    Height="270" />
+        <Rectangle Grid.Column="1" Width="0.3" Stroke="Black" Margin="0,30,0,30" Opacity="0.5" StrokeThickness="0.3" />
+        <StackPanel Grid.Column="2" x:Name="RightCanvas" VerticalAlignment="Center" HorizontalAlignment="Left" Height="270"
+                    Margin="10, 0" />
+      </Grid>
+    </Border>
+
+    <Border Grid.Row="2" BorderThickness="3" Opacity="1" Margin="10,10,10,10" Style="{StaticResource ComponentBorder}" 
+                 BorderBrush="LightGray">
+      <Grid x:Name="UsbGrid" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+      </Grid>
+    </Border>
+  </Grid>
+</Window>

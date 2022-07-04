@@ -1,0 +1,45 @@
+﻿<Application x:Class="Ytl.AbittiUsb.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Color x:Key="DarkBlue">#006ED2</Color>
+        <SolidColorBrush x:Key="DarkColorBrush" Color="{StaticResource DarkBlue}" />
+        <Style TargetType="{x:Type ProgressBar}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ProgressBar">
+                        <Border BorderBrush="#D9DCE1" BorderThickness="1" Background="#E8E8E8" CornerRadius="0"
+                                Padding="0">
+                            <Grid x:Name="PART_Track">
+                                <Rectangle x:Name="PART_Indicator" HorizontalAlignment="Left" Fill="{StaticResource DarkColorBrush}" />
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ActionButton" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Background" Value="{StaticResource DarkColorBrush}" />
+            <Setter Property="BorderBrush" Value="{StaticResource DarkColorBrush}" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Height" Value="33" />
+            <Setter Property="Width" Value="245" /> 
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="0"></Setter>
+            <Setter Property="Focusable" Value="False" />
+        </Style>
+        <Style x:Key="PlainText" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize" Value="18"></Setter>
+        </Style>
+        <Style x:Key="Header" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize" Value="26"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+			<Setter Property="HorizontalAlignment" Value="Left" />
+			<Setter Property="Margin" Value="30,10,0,0" />
+        </Style>
+    </Application.Resources>
+</Application>

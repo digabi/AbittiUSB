@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="VerificationInfo">Tarkistetaan koetikun versiota... odota hetki</system:String>
+    <system:String x:Key="DownloadNewVersion">Lataa uusi versio kokeesta</system:String>
+    <system:String x:Key="HeaderForDownload">Kokelaan tikku</system:String>
+    <system:String x:Key="EvaluateTimeLeft">Evaluoidaan koetikun lataamisen jäljellä olevaa aikaa...</system:String>
+    <system:String x:Key="TimeLeft">Arvioitu jäljellä oleva latausaika {0}.</system:String>
+    <system:String x:Key="VerifiedAndUnzipping">Levykuvan latauspaketti verifioitu, puretaan...</system:String>
+    <system:String x:Key="VerifyImage">Levykuvapaketti purettu, verifioidaan levykuva...</system:String>
+    <system:String x:Key="VerifyZipImage">Tiedosto ladattu, verifioidaan latauspaketti...</system:String>
+    <system:String x:Key="ImageUpToDate">Levykuva ajantasalla</system:String>
+    <system:String x:Key="ImageFileInfo">Kokelaan tikun levykuva ({0}) luotu {1}.</system:String>
+    <system:String x:Key="ZipFileVerificationFailed">Paketin verifiointi epäonnistui.</system:String>
+</ResourceDictionary>

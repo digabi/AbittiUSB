@@ -1,0 +1,112 @@
+Tämä lisenssiteksti oli käytössä AbittiUSB:ssa ennen sovelluksen julkaisua avoimeksi lähdekoodiksi. AbittiUSB:n lisenssi löytyy lähdekoodijakelun juuresta tiedostosta LICENSE.
+
+
+Loppukäyttäjän käyttöoikeussopimus, versio 1.0, kokeen järjestäjä
+
+1. Yleistä
+Ohjelmistolla tarkoitetaan ylioppilastutkintolautakunnan (jäljempänä YTL) kehittämää koeympäristön suoritusvaiheessa käytettävää palvelinohjelmistoa (A) sekä kokeen suoritusvaiheessa käytettävien palvelin- ja asiakasohjelmistojen lataamiseen ja monistamiseen tarkoitettua ohjelmistoa (B) sekä ohjelmistoon ja sen käyttöön liittyvää YTL:n laatimaa dokumentaatiota, joka on annettu kokeen järjestäjän, laatijan ja kokeen suorittajien käyttöön.
+
+YTL omistaa sopimuksen kohteena olevien Ohjelmistojen tekijänoikeudet ja muut immateriaalioikeudet. Koeympäristön suoritusvaiheessa käytettävä palvelinohjelmisto sisältää myös muiden oikeudenhaltijoiden (avoimen lähdekoodin) ohjelmistoja, joilla on omat käyttöoikeutensa. YTL vastaa siitä, että nämä oikeudet sallivat vähintään samat oikeudet, jotka YTL myöntää Ohjelmistolle. Tämä sopimus ei koske näitä kolmannen osapuolen ohjelmistoja.
+
+Kokeen järjestäjä hyväksyy käyttöoikeussopimuksen ehdot ja sitoutuu noudattamaan niitä asentamalla ja käyttämällä monistamiseen tarkoitettua ohjelmistoa tai käynnistämällä suoritusvaiheessa käytettävän palvelinympäristön ohjelmiston.
+
+Kokeen järjestäjällä tarkoitetaan henkilöä, joka käyttää Ohjelmistoa tässä sopimuksessa mainittuun käyttötarkoitukseen.
+
+2. Myönnettävä käyttöoikeus
+Hyväksymällä tämän käyttöoikeussopimuksen YTL myöntää kokeen järjestäjälle 5 vuoden määräaikaisen, peruutettavissa olevan, ei yksinomaisen, ei siirrettävissä olevan, ilmaisen käyttöoikeuden:
+
+- Asentaa Ohjelmisto tietokoneelle kokeen suoritusvaiheessa käytettävien palvelin- ja asiakasohjelmistojen lataamista ja kopiointia varten.
+- Käyttää Ohjelmistoa omassa toiminnassaan kokeen järjestämiseen suorittamalla kokeen palvelinohjelmiston samassa kiinteistössä sijaitsevien kokeen suorittajien käyttöön.
+- Asentaa ja jakaa kokeen suorittamisessa tarvittava Ohjelmisto muistitikuille kokeen suorittajien käyttöön.
+Kokeen suorittajien tai järjestettävien kokeiden lukumäärää ei ole rajoitettu.
+Erityisesti todetaan, että kokeen järjestäjä ei saa periä maksua Ohjelmiston käytöstä, myydä tai vuokrata Ohjelmistoa tai luovuttaa tai edelleen lisensoida Ohjelmistoa, tehdä muutoksia Ohjelmistoon, purkaa tai selvittää Ohjelmiston ohjelmakoodin rakennetta. Selvyyden vuoksi todetaan, että kokeen suorittajille luovutetaan omat kopiot Ohjelmistosta kokeen suorittamista varten.
+
+Kaikki immateriaalioikeudet Ohjelmistoon säilyvät YTL:llä tai kolmannella taholla. YTL ei luovuta kokeen järjestäjälle muita oikeuksia kuin ne, jotka tässä sopimuksessa on nimenomaisesti myönnetty.
+
+3. Tietojen kerääminen ja luovuttaminen edelleen
+Kokeen järjestäjä hyväksyy, että YTL kerää ja taltioi kokeen järjestäjän käyttämästä laitteesta koneen laitteistotietoja, tietoja koneen asetuksista ja koneen käytöstä kokeen suorituksen aikana. Tietoja voidaan julkaista anonyymisti. Tietoja voidaan yhdistää YTL:n toimesta kokeen suorittajaan tai koevastauksiin järjestelmän tekniseen kehittämiseen tai kokeen kehittämiseen liittyvässä tarkoituksessa. Tietoja voidaan käyttää akateemiseen tutkimukseen YTL:n myöntämällä luvalla. Kokeen järjestäjä vakuuttaa, että hänellä on käyttämänsä tietokoneen omistajan lupa hyväksyä tietojen luovutus.
+
+4. Käyttöoikeuden päättyminen
+Kun käyttöoikeus on päättynyt kohdan 2 mukaan, kokeen järjestäjän tulee lopettaa Ohjelmiston käyttö. Käyttöoikeus päättyy myös 4 kuukauden kuluttua siitä, kun YTL on ilmoittanut käyttöoikeuden päättymisestä tai Ohjelmiston uuden version julkaisemisesta www-sivuillaan osoitteessa
+
+ www.ylioppilastutkinto.fi.
+
+Käyttöoikeus päättyy välittömästi, jos kokeen järjestäjä käyttää Ohjelmistoa tämän käyttöoikeussopimuksen vastaisesti. YTL:llä on myös oikeus irtisanoa Ohjelmiston käyttöoikeus päättymään välittömästi, jos esitetään väite siitä, että Ohjelmisto loukkaa kolmannen osapuolen immateriaalioikeuksia Suomessa.
+
+5. Vastuunrajoitus
+YTL ei myönnä mitään takuuta kokeen järjestäjälle. Ohjelmisto voi sisältää virheitä, ja kopioinnissa Ohjelmisto ylikirjoittaa muistitikun poistaen aiemmin muistitikulle tallennetun aineiston. YTL ei vastaa kadonneista tai tuhoutuneista tiedoista tai muusta vahingosta, jota Ohjelmiston käyttö saattaa aiheuttaa. Ohjelmiston käynnistäminen saattaa vaatia tietokoneen asetusten muuttamista. YTL ei vastaa näiden asetusmuutosten suorittamisesta eikä siitä mahdollisesti aiheutuvista ongelmista. YTL ei vastaa suoritusvaiheessa käytettävällä palvelimella tai muistitikuilla olevista tiedoista tai niiden tietoturvasta. YTL ei takaa Ohjelmiston yhteensopivuutta minkään tietyn tietokoneen kanssa.  Erityisesti huomautetaan, että Ohjelmistoa ei ole tarkoitettu tärkeiden kokeiden järjestämiseen. Tärkeillä kokeilla tarkoitetaan sellaisia kokeita, jotka voivat olla tärkeitä kokeen järjestäjän tai suorittajan kannalta, ja kokeen suorittajan oikeudet, esimerkiksi opiskelupaikka tai tutkinto, saattavat riippua näistä kokeista. YTL ei ole velvollinen suorittamaan Ohjelmiston käytön perusteella mitään vahingonkorvauksia suorista tai epäsuorista vahingoista.
+
+6. Immateriaalioikeuksien loukkaukset
+Kohdasta 4 poiketen YTL vastaa kuitenkin siitä, että Ohjelmisto ei tämän sopimuksen mukaisesti käytettynä loukkaa Suomessa voimassa olevia kolmannen osapuolen patentti-, tekijän- tai muita immateriaalioikeuksia.
+
+YTL sitoutuu puolustamaan kustannuksellaan kokeen järjestäjää, jos tätä vastaan esitetään väite siitä, että Ohjelmisto loukkaa kolmannen osapuolen immateriaalioikeuksia Suomessa. Edellytyksenä kuitenkin on, että kokeen järjestäjä ilman aiheetonta viivästystä ilmoittaa kirjallisesti YTL:lle esitetystä väitteestä ja antaa YTL:n käyttää vastaajan puhevaltaa sekä antaa YTL:lle sen pyynnöstä kaikki kokeen järjestäjän saatavissa olevat tarpeelliset tiedot ja avun sekä tarpeelliset valtuutukset.
+
+Kokeen järjestäjä on oikeutettu ryhtymään vaatimuksen johdosta välttämättömin toimenpiteisiin siihen saakka, kunnes YTL nimeää asiaa hoitavan tahon tai alkaa hoitaa asiaa itse. Kokeen järjestäjä ei kuitenkaan voi sopia korvauksista tai myöntyä väitteisiin.
+
+YTL vastaa tuomittujen tai sovittujen korvausten maksamisesta kolmannelle osapuolelle, edellyttäen että kokeen järjestäjä on menetellyt edellä kerrotun mukaisesti.
+
+YTL ei kuitenkaan vastaa väitteestä, joka:
+(a) tehdään sellaisen tahon toimesta, jolla on määräysvalta kokeen järjestäjään tai johon kokeen järjestäjällä on määräysvalta; (b) johtuu kokeen järjestäjän tai muun tahon kuin YTL:n Ohjelmistoon tekemästä muutoksesta (c) johtuu siitä, että Ohjelmistoa on käytetty yhdessä Ohjelmistoon kuulumattoman tuotteen tai palvelun kanssa tai (d) olisi voitu välttää käyttämällä Ohjelmiston uusinta versiota.
+
+ YTL vastaa immateriaalioikeuksien loukkauksista vain edellä kuvatussa laajuudessa.
+
+7. Oikeuspaikka ja sovellettava laki
+
+Tähän käyttöoikeussopimukseen sovelletaan Suomen lakia, ja oikeuspaikka on Helsingin käräjäoikeus.
+
+
+
+
+
+Licensavtal för slutanvändare, version 1.0, provanordnare
+
+1. Allmänt
+Med programvara avses Studentexamensnämndens (nedan SEN) serverprogramvara (A) som används vid avläggande av prov i provmiljöer samt programvara för nedladdning av server- och kundprogramvara (B) som används vid avläggande och kopiering av prov samt SEN:s dokumentation om programvaran och användningen av den som ges till dem som anordnar, redigerar och avlägger prov.
+
+SEN äger upphovsrätten och övriga immateriella rättigheter till den Programvara som är föremål för avtalet. Den serverprogramvara som används för att avlägga prov i provmiljöer innehåller också programvara (med öppen källkod) av andra rättsinnehavare med separata licensvillkor. SEN ansvarar för att dessa licensvillkor ger minst samma rättigheter som SEN beviljar Programvaran. Detta avtal omfattar inte programvara av tredje parter.
+
+Provanordnaren godkänner villkoren för licensavtalet och förbinder sig att iaktta dem genom att installera och använda den programvara som är avsedd för kopiering eller genom att starta den programvara som används för avläggande av prov i servermiljön.
+
+Med provanordnare avses personer som använder Programvaran för syften som avses i detta avtal.
+
+2. Licens som beviljas
+Genom att godkänna detta licensavtal beviljar SEN provanordnaren avgiftsfritt följande tidsbegränsade licensrättigheter för 5 år. De kan återkallas och är inte exklusiva eller överlåtbara:
+
+- Rätt att installera Programvaran på en dator för nedladdning och kopiering av den server- och kundprogramvara som används när prov avläggs.
+- Rätt att använda Programvaran för avläggande av prov i sin verksamhet genom att överlåta serverprogramvaran till provdeltagarna i samma fastighet.
+- Rätt att installera den Programvara som behövs för avläggande av prov på USB-enheter och dela ut dem till dem som avlägger provet.
+Antalet personer som avlägger prov eller antalet prov är inte begränsat.
+Det konstateras särskilt att provanordnaren inte får ta ut avgifter för användningen av Programvaran, sälja eller hyra ut Programvaran eller överlåta eller vidarelicensera Programvaran, göra ändringar i Programvaran, nedmontera eller reda ut strukturen hos Programvarans kod. För tydlighets skull konstateras det att provdeltagarna får egna kopior av Programvaran för avläggandet av provet.
+
+SEN eller tredje part förbehåller sig alla immateriella rättigheter till Programvaran. SEN överlåter inga andra rättigheter till provanordnaren utom de som uttryckligen beviljas enligt detta avtal.
+
+3. Insamling och utlämning av uppgifter
+Provanordnaren accepterar att SEN samlar in och sparar uppgifter om den dator som provanordnaren använder samt uppgifter om datorns inställningar och användningen av den under provet. Uppgifterna kan publiceras anonymt. SEN kan koppla ihop uppgifter med avläggaren av provet eller provsvaren i syfte att utveckla systemets teknik eller provet. Uppgifter kan med tillstånd av SEN användas för akademisk forskning. Provanordnaren försäkrar att den har tillstånd av ägaren till den använda datorn att godkänna utlämning av uppgifter.
+
+4. Licensen upphör
+När licensen har upphört att gälla enligt punkt 2 får provanordnaren inte längre använda Programvaran. Licensen upphör att gälla även 4 månader efter att SEN meddelat att licensen upphör eller att en ny version av Programvaran publicerats på SEN:s webbplats
+
+ www.ylioppilastutkinto.fi.
+
+Licensen upphör omedelbart om provanordnaren använder Programvaran i strid med detta licensavtal. SEN har också rätt att säga upp licensen för Programvaran med omedelbar verkan, om det hävdas att Programvaran kränker tredje parters immateriella rättigheter i Finland.
+
+5. Ansvarsbegränsning
+SEN ger inte provanordnaren några som helst garantier. Programvaran kan innehålla fel, och vid kopiering på USB-enheten skriver Programvaran över material som tidigare sparats på den. SEN ansvarar inte för information som försvinner eller förstörs eller för annan skada som användningen av Programvaran kan orsaka. Det kan hända att datorns inställningar måste ändras för att starta Programvaran. SEN ansvarar inte för ändrade inställningar eller problem som dessa kan orsaka. SEN ansvarar inte för information i den server eller de USB-enheter som används vid avläggandet av prov eller för informationssäkerheten. SEN garanterar inte att Programvaran är kompatibel med en viss dator.  Användaren ska särskilt notera att Programvaran inte är avsedd för anordnande av viktiga prov. Med viktiga prov avses prov som kan vara viktiga för provanordnaren eller provdeltagaren, och där provet kan vara avgörande till exempel för deltagarens studieplats eller examen. SEN är inte skadeståndsskyldig för några som helst direkta eller indirekta skador som användningen av Programvaran orsakar.
+
+6. Kränkningar av immateriella rättigheter
+Till skillnad från punkt 4 ansvarar SEN dock för att Programvaran, när den används enligt detta avtal, inte kränker tredje parters patent, upphovsrätt eller andra immateriella rättigheter som gäller i Finland.
+
+SEN förbinder sig att på egen bekostnad försvara provanordnaren mot påståenden om att Programvaran kränker tredje parters immateriella rättigheter i Finland. Detta förutsätter dock att provanordnaren utan oskäligt dröjsmål skriftligen underrättar SEN om påståendet och ger SEN rätt att föra svarandens talan samt på SEN:s begäran lämnar all nödvändig information och hjälp som provanordnaren har tillgång till samt nödvändiga fullmakter till SEN.
+
+Provanordnaren har rätt att vidta nödvändiga åtgärder på grund av yrkanden fram till dess att SEN utsett ett ombud för skötseln av ärendet eller sköter det själv. Provanordnaren kan dock inte avtala om ersättningar eller gå med på yrkanden.
+
+SEN ansvarar för betalningen av utdömda eller avtalade ersättningar till tredje parter, förutsatt att provanordnaren handlat på ovan nämnt sätt.
+
+SEN ansvarar dock inte för yrkanden som
+(a) framförs av en part som utövar bestämmande inflytande över provanordnaren eller som provanordnaren utövar bestämmande inflytande över; (b) beror på ändringar i Programvaran som gjorts av provanordnaren eller någon annan part än SEN; (c) beror på att Programvaran använts med en produkt eller en tjänst som den inte är avsedd för eller (d) kunde ha undvikits genom att använda den nyaste versionen av Programvaran.
+
+ SEN ansvarar för kränkningar av immateriella rättigheter endast i den ovan beskrivna omfattningen.
+
+7. Behörig domstol och tillämplig lag
+
+På detta licensavtal tillämpas finsk lag, och behörig domstol är Helsingfors tingsrätt.
